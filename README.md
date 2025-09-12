@@ -21,7 +21,3 @@ python scripts/04_clustering.py
 python scripts/05_hyperparameter_tuning.py  # optional (long)
 streamlit run ui/app.py
 ```
-
-See `deployment/ngrok_setup.txt` for a short ngrok guide.
-
-This skeleton was created to match the project brief provided in your PDF while adding a `scripts/` folder for reproducible command-line execution.

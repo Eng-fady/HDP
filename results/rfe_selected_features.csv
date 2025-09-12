@@ -1,0 +1,14 @@
+,0
+age,True
+trestbps,True
+chol,True
+thalach,True
+oldpeak,True
+sex,False
+cp,True
+fbs,False
+restecg,False
+exang,False
+slope,False
+ca,True
+thal,True

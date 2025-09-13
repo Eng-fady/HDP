@@ -29,6 +29,7 @@ streamlit run ui/app.py
 * [Diagrams](#diagrams---generate-and-include-them-in-readme)
 * [Troubleshooting](#troubleshooting-common-problems)
 * [Git & repo hygiene tips](#git--repo-hygiene-tips)
+* [Future Improvements](#future-improvements)
 * [Disclaimer & author](#final-notes--legal)
 
 ---
@@ -230,7 +231,7 @@ data/processed.*
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 * Add deep learning models (TensorFlow / PyTorch)
 * Deploy to cloud (Streamlit Cloud / Heroku / AWS)

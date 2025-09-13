@@ -1,6 +1,6 @@
 # 🫀 Heart Disease Risk Prediction
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)](#streamlit-app--manual--csv-upload)  
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)](#run-the-app-fast)  
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-blue?logo=scikit-learn)](https://scikit-learn.org/)  
 [![Python](https://img.shields.io/badge/Python-3.11-green?logo=python)](https://www.python.org/)
 

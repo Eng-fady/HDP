@@ -7,7 +7,7 @@
 
 ## run the app (fast)
 ```powershell
-# from project root (Windows PowerShell)
+# from project root (VS Code Windows PowerShell Terminal)
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt

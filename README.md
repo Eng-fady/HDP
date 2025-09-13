@@ -1,11 +1,9 @@
-````markdown
 # 🫀 Heart Disease Risk Prediction
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)](#run-the-app)  
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-blue?logo=scikit-learn)](https://scikit-learn.org/)  
 [![Python](https://img.shields.io/badge/Python-3.11-green?logo=python)](https://www.python.org/)
 
----
 
 ## run the app (fast)
 ```powershell

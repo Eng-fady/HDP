@@ -41,15 +41,15 @@ It includes: preprocessing, feature selection/PCA, baseline model training, clus
 
 ## Project Structure
 
-![Project Structure Diagram](project_structure1.png)
+![Project Structure Diagram](project_structure1.svg)
 
 ## ML Workflow
 
-![ML Workflow Diagram](workflow_diagram.png)
+![ML Workflow Diagram](workflow_diagram.svg)
 
 ## System Architecture
 
-![System Architecture Diagram](system_architecture.png)
+![System Architecture Diagram](system_architecture.svg)
 ---
 
 # Prerequisites & Quick Setup (Windows)

@@ -1,7 +1,7 @@
 from graphviz import Digraph
 
-dot = Digraph(comment="ML Workflow", format="png")
-dot.attr(rankdir="LR", size="8")
+dot = Digraph(comment="ML Workflow", format="svg")
+dot.attr(rankdir="LR", size="8", dpi = "300")
 
 dot.node("raw", "Raw Data (UCI CSV)", shape="box", style="filled", fillcolor="lightblue")
 dot.node("pre", "Preprocessing\n(clean + encode)", shape="box", style="filled", fillcolor="lightyellow")
@@ -12,5 +12,5 @@ dot.node("ui", "Streamlit App\n(UI for manual & CSV input)", shape="component", 
 
 dot.edges([("raw", "pre"), ("pre", "train"), ("train", "eval"), ("eval", "model"), ("model", "ui")])
 
-dot.render("workflow_diagram", cleanup=True)
-print("✅ Saved workflow_diagram.png")
+dot.render("workflow_diagram", format="svg", cleanup=True)
+print("✅ Saved workflow_diagram.svg")

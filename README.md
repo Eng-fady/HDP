@@ -39,6 +39,17 @@ streamlit run ui/app.py
 This repository contains a reproducible pipeline for predicting heart disease (UCI dataset).
 It includes: preprocessing, feature selection/PCA, baseline model training, clustering, hyperparameter tuning, model export, a Streamlit UI (single-entry + CSV upload), and scripts for bulk predictions.
 
+## Project Structure
+
+![Project Structure Diagram](project_structure.png)
+
+## ML Workflow
+
+![ML Workflow Diagram](workflow_diagram.png)
+
+## System Architecture
+
+![System Architecture Diagram](system_architecture.png)
 ---
 
 # Prerequisites & Quick Setup (Windows)
@@ -198,7 +209,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Use `sparse_output=False` instead of `sparse=False`.
 
 **Graphviz not found**
-Add `C:\Program Files\Graphviz\bin` to PATH. Verify with `dot -V`.
+Add `C:\Program Files\Graphviz\bin` to PATH, then restart your VS Code. Verify with `dot -V`.
 
 **Model not found**
 Ensure `ui/app.py` uses:

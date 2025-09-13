@@ -58,7 +58,7 @@ It includes: preprocessing, feature selection/PCA, baseline model training, clus
 2. Open **PowerShell** and run:
 
 ```powershell
-cd C:\Users\PC\Desktop\Heart_Disease_Project
+cd C:\Users\<YOUR_USERNAME>\Desktop\Heart_Disease_Project # Replace with the PATH of your workspace
 python -m venv venv
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 .\venv\Scripts\Activate.ps1

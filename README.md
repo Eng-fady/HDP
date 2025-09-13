@@ -22,10 +22,10 @@ streamlit run ui/app.py
 
 * [Overview](#overview)
 * [Prerequisites & Quick Setup (Windows)](#prerequisites--quick-setup-windows)
-* [Dataset — exact steps to prepare `data/heart_disease.csv`](#dataset---exact-steps-to-prepare-dataheart_diseasecsv)
+* [Dataset](#dataset)
 * [Run the pipeline (detailed)](#run-the-pipeline-detailed)
-* [Streamlit app — manual + CSV upload](#streamlit-app---manual--csv-upload)
-* [CSV sample](#csv-sample-place-at-data-test_patientscsv)
+* [Streamlit app — manual + CSV upload](#streamlit-app--manual--csv-upload)
+* [CSV sample](#csv-sample)
 * [Diagrams](#diagrams---generate-and-include-them-in-readme)
 * [Troubleshooting](#troubleshooting-common-problems)
 * [Git & repo hygiene tips](#git--repo-hygiene-tips)
@@ -63,7 +63,8 @@ dot -V
 
 ---
 
-# Dataset — exact steps to prepare `data/heart_disease.csv`
+# Dataset — exact steps to prepare 
+# `data/heart_disease.csv`
 
 1. Extract `heart+disease.zip`.
 2. Copy `processed.cleveland.data` into `data/`.
@@ -146,14 +147,24 @@ streamlit run ui/app.py
 
 ---
 
-# CSV sample (place at `data/test_patients.csv`)
+# CSV sample 
+# (place at `data/test_patients.csv`)
 
+# 📊 Example Prediction 
 ```csv
 age,trestbps,chol,thalach,oldpeak,sex,cp,fbs,restecg,exang,slope,ca,thal
 54,130,250,160,1.0,1,0,0,1,0,2,0,2
 35,120,200,180,0.0,0,2,0,0,0,0,0,1
 70,145,300,130,3.5,1,0,1,1,1,2,3,3
 ```
+**Output:**
+
+| age | trestbps | chol | thalach | oldpeak | sex | cp | fbs | restecg | exang | slope | ca | thal | prediction |
+| --- | -------- | ---- | ------- | ------- | --- | -- | --- | ------- | ----- | ----- | -- | ---- | ---------- |
+| 54  | 130      | 250  | 160     | 1.0     | 1   | 0  | 0   | 1       | 0     | 2     | 0  | 2    | Low Risk   |
+| 35  | 120      | 200  | 180     | 0.0     | 0   | 2  | 0   | 0       | 0     | 0     | 0  | 1    | Low Risk   |
+| 70  | 145      | 300  | 130     | 3.5     | 1   | 0  | 1   | 1       | 1     | 2     | 3  | 3    | High Risk  |
+
 
 ---
 
@@ -172,9 +183,6 @@ python make_project_structure.py
 python make_workflow_diagram.py
 python make_system_architecture.py
 ```
-
-Commit PNGs to render in GitHub.
-
 ---
 
 # Troubleshooting (common problems)
@@ -222,6 +230,15 @@ data/processed.*
 
 ---
 
+## 🚀 Future Improvements
+
+* Add deep learning models (TensorFlow / PyTorch)
+* Deploy to cloud (Streamlit Cloud / Heroku / AWS)
+* Add explainability with SHAP or LIME
+* Create REST API wrapper with FastAPI
+
+---
+
 # Final notes & legal
 
 This repository is for educational purposes only, not for medical use.
@@ -232,5 +249,3 @@ This repository is for educational purposes only, not for medical use.
 
 Developed by [Fady Romany](https://github.com/Eng-fady)
 🎯 For learning, experimentation, and educational demonstrations.
-
-```

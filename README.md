@@ -41,7 +41,7 @@ It includes: preprocessing, feature selection/PCA, baseline model training, clus
 
 ## Project Structure
 
-![Project Structure Diagram](project_structure.png)
+![Project Structure Diagram](project_structure1.png)
 
 ## ML Workflow
 

@@ -22,6 +22,8 @@ dot.edge("models/", "final_model.pkl")
 scripts = [
     "01_data_preprocessing.py",
     "02_train_baseline_models.py",
+    "03_feature_selection_and_pca.py",
+    "04_clustering.py",
     "05_hyperparameter_tuning.py",
     "bulk_predict.py",
 ]

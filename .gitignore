@@ -1,19 +1,53 @@
-# Python
+# -----------------------------
+# Python cache / build files
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+*.pyd
+*.dll
+*.o
+*.a
+*.out
 
-# Virtual environment
+# -----------------------------
+# Virtual environments
 venv/
 .env
-.env.*
+.venv/
+env/
+ENV/
 
-# VS Code
-.vscode/
-
+# -----------------------------
 # Jupyter
 .ipynb_checkpoints
+*.ipynb
 
-# OS
+# -----------------------------
+# VS Code / IDE settings
+.vscode/
+.idea/
+*.swp
+
+# -----------------------------
+# OS-specific
 .DS_Store
 Thumbs.db
+
+# -----------------------------
+# Project-specific ignores
+# Large or generated artifacts
+models/
+results/
+data/heart_disease_cleaned.csv
+data/processed.*
+data/test_predictions.csv
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# -----------------------------
+# Streamlit
+.streamlit/

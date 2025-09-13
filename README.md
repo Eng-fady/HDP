@@ -26,7 +26,7 @@ streamlit run ui/app.py
 * [Run the pipeline (detailed)](#run-the-pipeline-detailed)
 * [Streamlit app — manual + CSV upload](#streamlit-app--manual--csv-upload)
 * [CSV sample](#csv-sample)
-* [Diagrams](#diagrams---generate-and-include-them-in-readme)
+* [Diagrams — (Project Structure, ML Workflow, System Architecture)](#diagrams--project-structure-ml-workflow-system-architecture)
 * [Troubleshooting](#troubleshooting-common-problems)
 * [Git & repo hygiene tips](#git--repo-hygiene-tips)
 * [Future Improvements](#future-improvements)
@@ -180,13 +180,13 @@ age,trestbps,chol,thalach,oldpeak,sex,cp,fbs,restecg,exang,slope,ca,thal
 
 ---
 
-# Diagrams — generate and include them in README
+# Diagrams — (Project Structure, ML Workflow, System Architecture)
 
-Scripts generate three diagrams:
+Scripts in `diagrams_charts` generate three diagrams:
 
-* `project_structure.png`
-* `workflow_diagram.png`
-* `system_architecture.png`
+* `project_structure.svg`
+* `workflow_diagram.svg`
+* `system_architecture.svg`
 
 Run with Graphviz installed:
 

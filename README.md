@@ -230,7 +230,7 @@ data/processed.*
 
 ---
 
-## 🚀 Future Improvements
+# 🚀 Future Improvements
 
 * Add deep learning models (TensorFlow / PyTorch)
 * Deploy to cloud (Streamlit Cloud / Heroku / AWS)

@@ -184,9 +184,9 @@ age,trestbps,chol,thalach,oldpeak,sex,cp,fbs,restecg,exang,slope,ca,thal
 
 Scripts in `diagrams_charts` generate three diagrams:
 
-* `project_structure.svg`
-* `workflow_diagram.svg`
-* `system_architecture.svg`
+* `project_structure.svg` --> [Project Structure](#project-structure)
+* `workflow_diagram.svg` --> [ML Workflow](#ml-workflow)
+* `system_architecture.svg` -->[System Architecture](#system-architecture)
 
 Run with Graphviz installed:
 

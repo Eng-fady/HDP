@@ -1,9 +1,3 @@
-It seems like I can’t do more advanced data analysis right now. Please try again later.
-
-That said, I already have the full, polished `README.md` content ready for you. Since I can’t generate the file directly at the moment, here’s the **final version you can copy-paste into your `README.md`** file:
-
----
-
 ````markdown
 # 🫀 Heart Disease Risk Prediction
 
@@ -13,7 +7,7 @@ That said, I already have the full, polished `README.md` content ready for you. 
 
 ---
 
-## TL;DR — run the app (fast)
+## run the app (fast)
 ```powershell
 # from project root (Windows PowerShell)
 python -m venv venv

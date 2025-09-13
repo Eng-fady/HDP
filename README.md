@@ -115,6 +115,7 @@ Launch the Streamlit app:
 ```bash
 streamlit run ui/app.py
 ```
+<<<<<<< HEAD
 
 You’ll see two modes:
 
@@ -182,3 +183,5 @@ Developed by [Fady Romany](https://github.com/Eng-fady)
 ```
 
 ---
+=======
+>>>>>>> 0793801b0ffe39cae15ab404832291592cf54495

@@ -22,7 +22,7 @@ streamlit run ui/app.py
 
 * [Overview](#overview)
 * [Prerequisites & Quick Setup (Windows)](#prerequisites--quick-setup-windows)
-* [Dataset](#dataset)
+* [Dataset](#dataset--exact-steps-to-prepare)
 * [Run the pipeline (detailed)](#run-the-pipeline-detailed)
 * [Streamlit app — manual + CSV upload](#streamlit-app--manual--csv-upload)
 * [CSV sample](#csv-sample)

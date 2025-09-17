@@ -13,7 +13,7 @@ We welcome contributions of all kinds: bug fixes, new features, documentation im
 * Clone it locally:
 
   ```bash
-  git clone https://github.com/<your-username>/HDP.git
+  git clone https://github.com/Eng-fady/HDP.git
   cd Heart_Disease_Project
   ```
 

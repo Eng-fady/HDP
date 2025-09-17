@@ -50,6 +50,7 @@ else:
     # ==========================================================
     if mode == "Manual Entry":
         st.markdown("Enter patient data below and click **Predict**.")
+        st.markdown("💡 *Tip: Press 'Tab' to move between fields*")
 
         def input_widget_for_feature(col, meta):
             if col in meta['numeric_features']:

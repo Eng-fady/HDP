@@ -37,7 +37,7 @@ Each script must begin with a **standard header block**:
 
 ```python
 """
-===============================================================================
+================================================================================
  Script Name   : script_name.py
  Location      : scripts/
  Author        : Full Name
@@ -48,7 +48,7 @@ Each script must begin with a **standard header block**:
  Description   :
     - Short summary of purpose.
     - Key steps the script performs.
-===============================================================================
+================================================================================
 """
 ```
 

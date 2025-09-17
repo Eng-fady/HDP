@@ -1,4 +1,20 @@
-# ui/app.py
+"""
+================================================================================
+ Script Name   : app.py
+ Author        : Fady Romany
+ Location      : ui/app.py
+ Date          : 2025-09-13
+ Requirements  : streamlit, pandas, numpy, joblib
+ Input         : User form inputs or uploaded CSV
+ Output        : Interactive predictions and probabilities
+ Description   :
+    - Streamlit UI for heart disease risk prediction.
+    - Supports manual patient entry.
+    - Supports bulk CSV upload with results preview.
+    - Displays prediction labels and disease probability.
+================================================================================
+"""
+
 import streamlit as st
 import pandas as pd
 import joblib
@@ -7,8 +23,10 @@ import os
 
 MODEL_PATH = os.path.join("models", "final_model.pkl")  # Path to the trained model 
 
+
 @st.cache_resource
 def load_artifact():
+    """Load model pipeline and metadata from disk."""
     if not os.path.exists(MODEL_PATH):
         st.warning(f"Model not found at {MODEL_PATH}. Train a model first and place the .pkl file there.")
         return None, None
@@ -16,6 +34,7 @@ def load_artifact():
     pipeline = loaded['pipeline']
     meta = loaded['metadata']
     return pipeline, meta
+
 
 pipeline, meta = load_artifact()
 st.title("Heart Disease Risk Predictor")
